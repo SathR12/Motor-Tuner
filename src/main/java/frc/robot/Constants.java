@@ -26,15 +26,4 @@ public final class Constants {
     public static final int LM3Port = 5;
     public static final int LEDPORT = 6;
     
-
-    /*
-    public static final led red = new led(255, 0, 0); //is these supposed to be LED_Controller instead?
-    public static final led green =  new led(0, 128, 0);
-    public static final led blue = new led(0, 0, 255);
-    public static final led yellow = new led(255, 255, 0);
-    public static final led orange = new led(255, 100, 0);
-    public static final led purple = new led(155, 0, 255);
-    public static final led pink = new led(255, 0, 255);
-    */ 
-
 }
