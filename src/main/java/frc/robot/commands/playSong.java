@@ -24,7 +24,6 @@ public class playSong extends CommandBase {
     @Override
     public void execute() {
         RobotContainer.BOOMBOX.addSongs();
-        RobotContainer.BOOMBOX.queueSong(0);
         RobotContainer.BOOMBOX.playSong();
     }
 
