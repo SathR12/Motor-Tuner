@@ -1,6 +1,6 @@
 # Groovy
 
-This robot tunes motors to play songs in .chrp format
+Tunes motors to play songs in .chrp format using Talon motors 
 
 ## Phoenix Tuner
 
