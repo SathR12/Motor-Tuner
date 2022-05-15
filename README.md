@@ -1,4 +1,4 @@
-# Groovy
+# Mozart
 
 Tunes motors to play songs in .chrp format using Talon motors 
 
