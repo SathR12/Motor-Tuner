@@ -29,8 +29,6 @@ public class Boombox extends SubsystemBase {
 
     String[] music = {"chrp_file1", "chrp_file2"};
 
-    Joystick joycon;
-
     public void addSongs() {
         ArrayList<TalonFX> instruments = new ArrayList<TalonFX>();
         for (TalonFX ports: motors) {
@@ -38,7 +36,6 @@ public class Boombox extends SubsystemBase {
         }
     
         boombox = new Orchestra(instruments);
-        joycon = new Joystick(0);
         queueSong(0);
 
         SmartDashboard.putBoolean("Playing", false);
