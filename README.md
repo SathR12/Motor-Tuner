@@ -1,4 +1,4 @@
-# Mozart
+# Motor Tuner
 
 Tunes motors to play songs in .chrp format using Talon motors 
 
